@@ -4,7 +4,7 @@
 
 .menu {
  
-    background: #ffff2c;
+    background: ffdd55ff;
     margin-bottom: 0;
     width: 100%;
     float: left;
@@ -54,7 +54,7 @@
 
   .main-nav > ul > li > a {
     
-    color: #000dff;
+    color: #d4aa00ff;
     display: block;
     padding: 15px 20px;
     text-decoration: none;
@@ -82,7 +82,7 @@
     position: absolute;
     margin: 0;
     padding: 0;
-    background: #023f80;
+    background: #d4aa00ff;
     width: 250px;
     visibility: hidden;
     opacity: 0;
@@ -93,7 +93,7 @@
 
   .main-nav > ul > li ul li {
     display: block;
-    border-bottom: 1px solid #0553a5;
+    border-bottom: 1px solid #d4aa00ff;
     position: relative;
   }
 
@@ -122,7 +122,7 @@
 
   .main-nav > ul > li ul li:hover > a {
   
-    background: #00b2f8;
+    background: #d4aa00ff;
   
   }
 
@@ -240,7 +240,7 @@
   }
   
   .main-nav ul ul li:first-child {
-    border-top: 1px solid #246ab3;
+    border-top: 1px solid #d4aa00ff;
   }
   
   .main-nav ul ul li a {
