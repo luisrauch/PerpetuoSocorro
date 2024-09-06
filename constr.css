@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* CONFIGURAÇÃO  GERAL */
+  body {
+    background: #ffffff;
+    height: 100vh;
+    color: #311700ff;/*#76520E;*/
+    font-size: 18px;
+  }
+  
+  .interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  
+  
+/* HEADER */
+.logo {
+  width: 100%;
+}
+
+.menu {
+  padding: 25px 0;
+  background-color: #ddcfb2ff;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+
+}
+
+.menu ul a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #311700ff;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu ul a:hover {
+  color: #b28754ff;
+
+}
+
+  main{
+    display: flex;
+    align-items: center;
+  }
+
+  main h1, h2{
+    text-align: center;
+    padding: 0 50px;
+  }
+
+  main h1{
+    padding-bottom: 100px;
+    font-size: 100px;
+  }
+
+  main h2{
+   line-height: 50px;
+  }
+  
+/* RODAPÉ */
+
+footer {
+    background-color: #ddcfb2ff;
+  }
+  
+  
+  .space {
+    display: flex;
+    justify-content: space-between;;
+    padding: 0 20px;
+  }
+  
+  .endereco {
+    padding: 20px 0 20px 600px;
+    text-align: center;
+  }
+  
+  .contatos{
+    padding: 20px 0 20px 0;
+  }

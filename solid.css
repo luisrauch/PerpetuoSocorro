@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: #ffffff;
+    height: 100vh;
+    color: #311700ff;
+    font-size: 14px;
+  }
+
+  
+/* HEADER */
+.logo {
+    width: 100%;
+  }
+  
+  .menu {
+    padding: 25px 0;
+    background-color: #ddcfb2ff;
+  }
+  
+  .menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+  
+  }
+  
+  .menu ul a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #311700ff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .menu ul a:hover {
+    color: #b28754ff;
+  
+  }
+  /* FIM HEADER */
+
+
+.interface {
+    max-width: 1280px;
+    margin: 50PX auto;
+}
+
+
+.interface h2 {
+    text-align: center;
+    padding: 0 0 50PX 0;
+}
+
+.interface p {
+    text-align: justify;
+    color: #311700ff;
+    text-indent: 3em;
+    line-height: 30px;
+}
+
+.interface ul {
+    text-align: justify;
+    color: #311700ff;
+    text-indent: 3em;
+    line-height: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* MOTIVA */
+.motiva .flex p {
+    padding: 0 200px 0 0;
+}
+
+.motiva .flex img {
+    height: 200px;
+}
+
+
+
+
+
+
+.lema {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h2,
+h3 {
+    padding: 20px 0;
+    color: #311700ff;
+}
+
+.logo_solidariedade {
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+p {
+    text-align: justify;
+}
+
+.oracao h2{
+    text-align: center;
+}
+
+.oracao p{
+    text-align: center;
+}
+
+.santos {
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    /*border: solid 2px yellowgreen;*/
+}
+
+.santos__img {
+    width: 350px;
+    /*border: solid 2px red;*/
+    padding: 0 0 0 150px;
+}
+
+.santos__texto p {
+    text-align: justify;
+}
+
+.santos__texto {
+    /*border: solid 2px blue;*/
+
+    padding: 0 100px;
+}
+
+
+@media screen and (max-width: 1020px) {
+
+    /* CLASSES GERAIS */
+    .flex {
+        flex-direction: column;
+    }
+
+    .menu__desktop,
+    .btn__contato {
+        display: none;
+    }
+.interface{
+    padding: 0 8%;
+}
+
+.motiva .flex p {
+    padding: 0 4%;
+}
+
+
+
+}
