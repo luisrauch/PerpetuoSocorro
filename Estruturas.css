@@ -61,3 +61,51 @@ p{
     text-indent: 40px;
 
 }
+
+.Pastorais{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0;
+  gap: 30px;
+  justify-content: center;
+  height: auto;
+}
+
+.pastorais1{
+  border: solid 10px #311700ff;
+  /* height: 200px; */
+  width: 200px;
+align-content: center;
+}
+
+.pastorais1 h2{
+text-align: center;
+padding-bottom: 30px;
+}
+
+.pastorais1 p{
+  padding: 20px;
+}
+
+/* RODAPÉ */
+
+footer {
+  background-color: #ddcfb2ff;
+}
+
+
+.space {
+  display: flex;
+  justify-content: space-between;
+  ;
+  padding: 0 20px;
+}
+
+.endereco {
+  padding: 20px 0 20px 600px;
+  text-align: center;
+}
+
+.contatos {
+  padding: 20px 0 20px 0;
+}
