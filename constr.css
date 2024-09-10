@@ -77,22 +77,24 @@
   
 /* RODAPÉ */
 
+
 footer {
-    background-color: #ddcfb2ff;
-  }
-  
-  
-  .space {
-    display: flex;
-    justify-content: space-between;;
-    padding: 0 20px;
-  }
-  
-  .endereco {
-    padding: 20px 0 20px 600px;
-    text-align: center;
-  }
-  
-  .contatos{
-    padding: 20px 0 20px 0;
-  }
+  background-color: #ddcfb2ff;
+  padding: 5px 50px ;
+}
+
+
+.space {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.rodape_pascom img{
+  height: 50px;
+}
+
+.endereco {
+  text-align: center;
+}
