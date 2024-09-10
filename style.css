@@ -31,8 +31,10 @@ body {
 }
 
 .menu {
-  padding: 25px 0;
-  background-color: #ddcfb2ff;
+  padding: 15px 0;
+  background-color: blue/*#ddcfb2ff*/;
+  border-top: solid 5px red;
+  border-bottom: solid 7px red;
 }
 
 .menu ul {
@@ -45,7 +47,7 @@ body {
 .menu ul a {
   text-decoration: none;
   cursor: pointer;
-  color: #311700ff;
+  color: rgb(190, 190, 9) /*#311700ff*/;
   padding: 10px 20px;
   font-size: 20px;
   font-weight: 600;
@@ -136,21 +138,21 @@ body {
 
 footer {
   background-color: #ddcfb2ff;
+  padding: 5px 50px ;
 }
 
 
 .space {
   display: flex;
   justify-content: space-between;
-  ;
-  padding: 0 20px;
+}
+
+
+
+.rodape_pascom img{
+  height: 50px;
 }
 
 .endereco {
-  padding: 20px 0 20px 600px;
   text-align: center;
-}
-
-.contatos {
-  padding: 20px 0 20px 0;
 }
