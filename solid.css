@@ -10,40 +10,41 @@ body {
     height: 100vh;
     color: #311700ff;
     font-size: 14px;
-  }
+}
 
-  
+
 /* HEADER */
 .logo {
     width: 100%;
-  }
-  
-  .menu {
+}
+
+.menu {
     padding: 25px 0;
     background-color: #ddcfb2ff;
-  }
-  
-  .menu ul {
+}
+
+.menu ul {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
-  
-  }
-  
-  .menu ul a {
+
+}
+
+.menu ul a {
     text-decoration: none;
     cursor: pointer;
     color: #311700ff;
     padding: 10px 20px;
     font-size: 20px;
     font-weight: 600;
-  }
-  
-  .menu ul a:hover {
+}
+
+.menu ul a:hover {
     color: #b28754ff;
-  
-  }
-  /* FIM HEADER */
+
+}
+
+/* FIM HEADER */
 
 
 .interface {
@@ -111,11 +112,11 @@ p {
     text-align: justify;
 }
 
-.oracao h2{
+.oracao h2 {
     text-align: center;
 }
 
-.oracao p{
+.oracao p {
     text-align: center;
 }
 
@@ -154,14 +155,36 @@ p {
     .btn__contato {
         display: none;
     }
-.interface{
-    padding: 0 8%;
+
+    .interface {
+        padding: 0 8%;
+    }
+
+    .motiva .flex p {
+        padding: 0 4%;
+    }
 }
 
-.motiva .flex p {
-    padding: 0 4%;
-}
+/* RODAPÉ */
 
 
-
-}
+footer {
+    background-color: #ddcfb2ff;
+    padding: 5px 50px ;
+  }
+  
+  
+  .space {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .rodape_pascom img{
+    height: 50px;
+  }
+  
+  .endereco {
+    text-align: center;
+  }
