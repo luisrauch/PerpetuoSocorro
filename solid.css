@@ -19,8 +19,9 @@ body {
 }
 
 .menu {
-    padding: 25px 0;
-    background-color: #ddcfb2ff;
+    padding: 15px 0;
+    /*   background-color: #efb810; */
+    background-image: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
 }
 
 .menu ul {
@@ -33,19 +34,24 @@ body {
 .menu ul a {
     text-decoration: none;
     cursor: pointer;
-    color: #311700ff;
+    /* color: rgb(190, 190, 9) /*#311700ff;*/
+    color: hwb(253 0% 0%);
     padding: 10px 20px;
     font-size: 20px;
     font-weight: 600;
 }
 
 .menu ul a:hover {
-    color: #b28754ff;
+    color: rgb(255, 47, 0);
 
 }
 
 /* FIM HEADER */
 
+
+main {
+    padding: 40px 4%;
+}
 
 .interface {
     max-width: 1280px;
@@ -78,17 +84,14 @@ body {
 
 
 /* MOTIVA */
-.motiva .flex p {
-    padding: 0 200px 0 0;
+
+.motiva .mot img {
+    width: 500px;
+    border: solid 2px;
+    padding: 20px;
+    margin: 20px;
+    float: right;
 }
-
-.motiva .flex img {
-    height: 200px;
-}
-
-
-
-
 
 
 .lema {
@@ -112,16 +115,22 @@ p {
     text-align: justify;
 }
 
-.oracao h2 {
-    text-align: center;
+.oracao {
+    border: solid 2px;
+    padding: 30px 0;
+    margin: 0 200px;
+    background-image: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
 }
 
-.oracao p {
+.oracao p,
+h2 {
     text-align: center;
+    line-height: 20px;
 }
 
 .santos {
-    display: flex;
+    /*     display: flex;
+ */
     align-items: center;
     margin: 0 50px;
     /*border: solid 2px yellowgreen;*/
@@ -138,53 +147,27 @@ p {
 }
 
 .santos__texto {
-    /*border: solid 2px blue;*/
+    /* border: solid 2px blue; */
 
     padding: 0 100px;
 }
 
-
-@media screen and (max-width: 1020px) {
-
-    /* CLASSES GERAIS */
-    .flex {
-        flex-direction: column;
-    }
-
-    .menu__desktop,
-    .btn__contato {
-        display: none;
-    }
-
-    .interface {
-        padding: 0 8%;
-    }
-
-    .motiva .flex p {
-        padding: 0 4%;
-    }
-}
-
 /* RODAPÉ */
-
 
 footer {
     background-color: #ddcfb2ff;
-    padding: 5px 50px ;
-  }
-  
-  
-  .space {
+    padding: 5px 50px;
+}
+
+.space {
     display: flex;
     justify-content: space-between;
-  }
-  
-  
-  
-  .rodape_pascom img{
+}
+
+.rodape_pascom img {
     height: 50px;
-  }
-  
-  .endereco {
+}
+
+.endereco {
     text-align: center;
-  }
+}

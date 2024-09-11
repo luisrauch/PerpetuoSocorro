@@ -30,11 +30,38 @@ body {
   width: 100%;
 }
 
+
 .menu {
   padding: 15px 0;
-  background-color: blue/*#ddcfb2ff*/;
-  border-top: solid 5px red;
-  border-bottom: solid 7px red;
+/*   background-color: #efb810; */
+background-image: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
+}
+
+/* .menu ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+
+}
+
+.menu ul a {
+  text-decoration: none;
+  cursor: pointer;
+  color: hwb(253 0% 0%);
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.menu ul a:hover {
+  color: rgb(255, 47, 0);
+
+}
+ */
+.menu {
+  padding: 15px 0;
+/*   background-color: #efb810; */
+background-image: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
 }
 
 .menu ul {
@@ -47,14 +74,15 @@ body {
 .menu ul a {
   text-decoration: none;
   cursor: pointer;
-  color: rgb(190, 190, 9) /*#311700ff*/;
+  /* color: rgb(190, 190, 9) /*#311700ff;*/
+  color: hwb(253 0% 0%);
   padding: 10px 20px;
   font-size: 20px;
   font-weight: 600;
 }
 
 .menu ul a:hover {
-  color: #b28754ff;
+  color: rgb(255, 47, 0);
 
 }
 
@@ -138,18 +166,15 @@ body {
 
 footer {
   background-color: #ddcfb2ff;
-  padding: 5px 50px ;
+  padding: 5px 50px;
 }
-
 
 .space {
   display: flex;
   justify-content: space-between;
 }
 
-
-
-.rodape_pascom img{
+.rodape_pascom img {
   height: 50px;
 }
 
