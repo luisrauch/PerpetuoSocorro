@@ -2,74 +2,96 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em Construção</title>
-    <link rel="stylesheet" href="constr.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Em Construção</title>
+  <link rel="stylesheet" href="geral.css">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- icone do menu haburger -->
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="images/Inicial/logo.png" alt="logo da igreja matriz Perpétuo Socorro"><br>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="construcao.html">Nossa Padroeira</a></li>
-                    <li><a href="construcao.html">Galerias</a></li>
-                    <li><a href="Estruturas.html">Estrutura da Paróquia</a></li>
-                    <li><a href="construcao.html">Links</a></li>
-                </ul>
-            </nav>
-        </div><!-- MENU -->
+  <header>
+    <img class="logo" src="images/Inicial/logo.png" alt="logo da igreja matriz Perpétuo Socorro"><br>
 
-    </header>
+    <span class="material-symbols-outlined" onclick="clickMenu()">
+      menu
+    </span>
 
-    <main>
-
-        <section class="construcao">
-
-            <h1>AGUARDEM</h1>
-            <h2>Nosso site está em construção! Em breve, você poderá acessar todas as novidades da nossa igreja aqui.
-                Agradecemos pela sua paciência e aguardamos sua visita!</h2>
+    <div class="menu">
+      <nav id="itens">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="construcao.html">Nossa Padroeira</a></li>
+          <li><a href="construcao.html">Galerias</a></li>
+          <li><a href="Estruturas.html">Estrutura da Paróquia</a></li>
+          <li><a href="construcao.html">Links</a></li>
+        </ul>
+      </nav>
+    </div><!-- MENU -->
+  </header>
 
 
-        </section>
+  <main>
 
-        <section class="imagem-construcao">
+    <section class="construcao">
 
-            <img src="images/construcao/NSenhora.png" alt="">
-        </section>
+      <h1>AGUARDEM</h1>
+      <h2>Nosso site está em construção! Em breve, você poderá acessar todas as novidades da nossa igreja aqui.
+        Agradecemos pela sua paciência e aguardamos sua visita!</h2>
+
+
+    </section>
+
+    <section class="imagem-construcao">
+
+      <img src="images/construcao/NSenhora.png" alt="">
+    </section>
 
 
 
 
-    </main>
+  </main>
 
-    <footer>
-        <div class="rodape">
-          <section class="space">
-            <div class="rodape_pascom">
-              <img src="images/Pascom/logo oficial.png" alt="Logo da Pastoral da Comunicação">
-            </div>
-            <div class="endereco">
-              <p>Paróquia Nossa Senhora do Perpétuo Socorro<br>
-                Rua Lino Esculápio, 30 - Rio Bonito <br>
-                Irati - PR Telefone: (42) 3422-1864</p>
-            </div><!-- endereco -->
-            <div class="contatos">
-              <a href="https://web.whatsapp.com/send?phone=554234221864"><img src="images/Inicial/whatsapp.png" alt="WhatsApp" width="40px"></a>
-              <a href="https://www.instagram.com/paroquiaperpetuoirati/"><img src="images/Inicial/instagram.png" alt="Instagram" width="40px"></a>
-              <a href="https://www.facebook.com/paroquiaperpetuoirati/"><img src="images/Inicial/facebook.png" alt="Facebook" width="40px"></a>
-              <a href="mailto:perpetuosocorroirati@hotmail.com"><img src="images/Inicial/email.png" alt="e-mail" width="45px"></a>
-            </div> <!-- contatos -->
-          </section>
-        </div><!-- rodape -->
-      </footer>
-</body>
-</html>
+  <footer>
+    <div class="rodape">
+      <section class="space">
+        <div class="rodape_pascom">
+          <img src="images/Pascom/logo oficial.png" alt="Logo da Pastoral da Comunicação">
+        </div>
+        <div class="endereco">
+          <p>Paróquia Nossa Senhora do Perpétuo Socorro<br>
+            Rua Lino Esculápio, 30 - Rio Bonito <br>
+            Irati - PR Telefone: (42) 3422-1864</p>
+        </div><!-- endereco -->
+        <div class="contatos">
+          <a href="https://web.whatsapp.com/send?phone=554234221864"><img src="images/Inicial/whatsapp.png"
+              alt="WhatsApp" width="40px"></a>
+          <a href="https://www.instagram.com/paroquiaperpetuoirati/"><img src="images/Inicial/instagram.png"
+              alt="Instagram" width="40px"></a>
+          <a href="https://www.facebook.com/paroquiaperpetuoirati/"><img src="images/Inicial/facebook.png"
+              alt="Facebook" width="40px"></a>
+          <a href="mailto:perpetuosocorroirati@hotmail.com"><img src="images/Inicial/email.png" alt="e-mail"
+              width="45px"></a>
+        </div> <!-- contatos -->
+      </section>
+    </div><!-- rodape -->
+  </footer>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "none") {
+        itens.style.display = "block"
+      } else { itens.style.display = "none" }
+    }
+</body >
+</html >

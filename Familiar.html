@@ -2,33 +2,45 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em Construção</title>
-    <link rel="stylesheet" href="constr.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastoral Familiar</title>
+  <link rel="stylesheet" href="geral.css">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- icone do menu haburger -->
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="images/Inicial/logo.png" alt="logo da igreja matriz Perpétuo Socorro"><br>
-        <div class="menu">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="construcao.html">Nossa Padroeira</a></li>
-                    <li><a href="construcao.html">Galerias</a></li>
-                    <li><a href="Estruturas.html">Estrutura da Paróquia</a></li>
-                    <li><a href="construcao.html">Links</a></li>
-                </ul>
-            </nav>
-        </div><!-- MENU -->
+  <header>
+    <img class="logo" src="images/Inicial/logo.png" alt="logo da igreja matriz Perpétuo Socorro"><br>
 
-    </header>
+    <span class="material-symbols-outlined" onclick="clickMenu()">
+      menu
+    </span>
+
+    <div class="menu">
+      <nav id="itens">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="construcao.html">Nossa Padroeira</a></li>
+          <li><a href="construcao.html">Galerias</a></li>
+          <li><a href="Estruturas.html">Estrutura da Paróquia</a></li>
+          <li><a href="construcao.html">Links</a></li>
+        </ul>
+      </nav>
+    </div><!-- MENU -->
+  </header>
+
 
     <main>
 
@@ -71,5 +83,11 @@
           </section>
         </div><!-- rodape -->
       </footer>
+      <script>
+        function clickMenu() {
+          if (itens.style.display == "none"){
+            itens.style.display = "block"
+          } else { itens.style.display = "none" }
+        }
 </body>
 </html>

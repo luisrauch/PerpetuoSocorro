@@ -91,9 +91,7 @@ a {
 @media screen and (max-width: 1000px) {
 
 
-    .itens{
-        display: none;
-    }
+  
     .menu ul {
         display: block;
         height: auto;
@@ -119,5 +117,7 @@ a {
         transform: scale(1.05);
         transition: .5s;
     }
-
+    #itens{
+        display: none;
+    }
 }
