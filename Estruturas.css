@@ -1,56 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-/* CONFIGURAÇÃO  GERAL */
-body {
-  background: #ffffff;
-  height: 100vh;
-  color: #311700ff;
-  font-size: 14px;
-}
-
 main {
   /*  max-width: 1280px; */
   margin: 0 auto;
   padding: 40px 4%;
-}
-
-
-/* HEADER */
-.logo {
-  width: 100%;
-}
-
-.menu {
-  padding: 15px 0;
-/*   background-color: #efb810; */
-background-image: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
-}
-
-.menu ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-
-}
-
-.menu ul a {
-  text-decoration: none;
-  cursor: pointer;
-  /* color: rgb(190, 190, 9) /*#311700ff;*/
-  color: hwb(253 0% 0%);
-  padding: 10px 20px;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.menu ul a:hover {
-  color: rgb(255, 47, 0);
-
 }
 
 
@@ -182,25 +133,4 @@ font-size: 30px;
 
 .movimentos1 .Pascom {
   height: 180 px;
-}
-
-
-/* RODAPÉ */
-
-footer {
-  background-color: #ddcfb2ff;
-  padding: 5px 50px;
-}
-
-.space {
-  display: flex;
-  justify-content: space-between;
-}
-
-.rodape_pascom img {
-  height: 50px;
-}
-
-.endereco {
-  text-align: center;
 }

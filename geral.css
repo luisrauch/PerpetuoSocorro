@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  
+  }
+  
+  /* CONFIGURAÇÕES GEGAIS */
+  
+  body {
+    height: 100vh;
+    background-color: #fff;
+    color: #311700ff;
+    font-size: 14px;
+    line-height: 25px;
+    height: 100vh;
+  }
+  
+  /* MENU */
+  .logo {
+    width: 100%;
+  }
+  
+  .menu {
+    background: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
+  
+  }
+  
+  .menu ul,
+  a {
+    display: flex;
+    height: 50px;
+    color: rgb(0, 0, 255);
+    font-weight: 600;
+    font-size: 17px;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .menu a {
+    height: auto;
+    padding: 5px 20px;
+    cursor: pointer;
+  }
+  
+  .menu a:hover {
+    color: red;
+    transform: scale(1.05);
+    transition: .5s;
+  }
+  
+  
+
+  /* RODAPE */
+
+  .rodape {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
+    color: blue;
+    margin-top: 30px;
+  }
+  
+  .rodape #rodape_pascom {
+    height: 50px;
+  }
+  
+  .rodape .contatos {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .endereco p {
+    line-height: normal;
+    text-align: center;
+  }
+  
