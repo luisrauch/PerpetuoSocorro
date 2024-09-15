@@ -14,13 +14,22 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- icone do menu haburger -->
 </head>
 
 <body>
   <header>
     <img class="logo" src="images/Inicial/logo.png" alt="logo da igreja matriz Perpétuo Socorro"><br>
+
+    <span class="material-symbols-outlined" onclick="clickMenu()">
+      menu
+    </span>
+
     <div class="menu">
-      <nav>
+      <nav id="itens">
         <ul>
           <li><a href="index.html">Início</a></li>
           <li><a href="construcao.html">Nossa Padroeira</a></li>
@@ -134,6 +143,13 @@
       </div> <!-- contatos -->
     </div><!-- rodape -->
   </footer>
+  <script>
+    function clickMenu() {
+      if (itens.style.display == "none"){
+        itens.style.display = "block"
+      } else { itens.style.display = "none" }
+    }
+  </script>
 </body>
 
 </html>
