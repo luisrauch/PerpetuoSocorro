@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: block;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+}
+
+.nav-bar img {
+    width: 100%;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+
+.nav-item {
+    margin: 2px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: blue;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* RODAPE */
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    background: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
+    color: blue;
+    margin-top: 30px;
+}
+
+.rodape #rodape_pascom {
+    height: 50px;
+}
+
+.rodape .contatos {
+    display: flex;
+    gap: 5px;
+}
+
+.endereco p {
+    line-height: normal;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 730px) {
+
+    .nav-item {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        text-align: center;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .open {
+        display: block;
+    }
+
+    
+.rodape {
+    display: block;
+    height: auto;
+    text-align: center;
+    background: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
+    color: blue;
+    margin-top: 30px;
+    padding: 20px 0 10px 0;;
+}
+
+
+.rodape .contatos {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 20px 0 10px 0;
+}
+
+.endereco p {
+    line-height: normal;
+    text-align: center;
+}
+
+}
