@@ -8,3 +8,24 @@ body {
 main {
     padding: 40px 4%;
 }
+
+.galerias-titulos{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.galeria-relacao {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.galeria-relacao .galeria-item{
+    width: 200px;
+    height: 200px;
+    border: solid 2px #311700ff;
+    margin: 50px;
+    background-color: #ddcfb2ff;
+    list-style: none;
+    text-align: center;
+}
