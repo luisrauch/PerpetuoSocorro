@@ -15,17 +15,26 @@ main {
 }
 
 .galeria-relacao {
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
 
 .galeria-relacao .galeria-item{
     width: 200px;
     height: 200px;
     border: solid 2px #311700ff;
+    border-radius: 30px;
     margin: 50px;
     background-color: #ddcfb2ff;
     list-style: none;
     text-align: center;
+}
+
+.Galerias-imagem{
+    height: 150px;
+    padding: 5px;
+    border-radius: 30px;
 }
