@@ -118,8 +118,8 @@ header {
     display: block;
     height: auto;
     text-align: center;
-    background: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
-    color: blue;
+    background: rgb(0, 0, 75);
+    color: yellow;
     margin-top: 30px;
     padding: 20px 0 10px 0;;
 }
