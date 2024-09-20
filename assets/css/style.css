@@ -7,7 +7,8 @@
 }
 
 header {
-    background: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
+    /* background: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%); */
+    background: rgb(0, 0, 75);
     box-shadow: 0px 3px 10px #464646;
 }
 
@@ -35,7 +36,7 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 1.15rem;
-    color: blue;
+    color: yellow;
     font-weight: 500;
     padding: 10px 20px;
 }

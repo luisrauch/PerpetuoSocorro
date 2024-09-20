@@ -63,8 +63,9 @@ body {
   }
   
   .pastorais1 {
-    border: solid 5px #311700ff;
-    background-color: #ddcfb2ff;
+    color: #FFF;
+    border: solid 5px #fff;
+    background: linear-gradient(149deg, rgba(15,43,202,1) 0%, rgba(6,72,100,1) 99%);
     border-radius: 20px;
     width: 250px;
     text-align: center;
