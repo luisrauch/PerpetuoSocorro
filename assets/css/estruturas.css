@@ -64,8 +64,8 @@ body {
   
   .pastorais1 {
     color: #FFF;
-    border: solid 5px #fff;
     background: linear-gradient(149deg, rgba(15,43,202,1) 0%, rgba(6,72,100,1) 99%);
+    box-shadow: 3px 8px 10px rgba(0, 0, 255, 0.484);
     border-radius: 20px;
     width: 250px;
     text-align: center;
@@ -119,9 +119,10 @@ body {
   }
   
   .movimentos1 {
-    border: solid 5px #311700ff;
-    background-color: #ddcfb2ff;
+    background: linear-gradient(149deg, rgba(15,43,202,1) 0%, rgba(6,72,100,1) 99%);
+    box-shadow: 3px 8px 10px rgba(0, 0, 255, 0.484);
     border-radius: 20px;
+    color: #FFF;
     width: 300px;
     height: 200px;
     text-align: center;
