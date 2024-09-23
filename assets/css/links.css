@@ -1,0 +1,29 @@
+.logo-links{
+  max-width: 150px;
+  padding: 50px;
+  background: linear-gradient(149deg, rgba(15,43,202,1) 0%, rgba(6,72,100,1) 99%);
+  box-shadow: 3px 8px 10px rgba(0, 0, 255, 0.484);
+  color: #ffffff;
+}
+
+
+.logos-links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.logos-links li{
+  list-style: none;
+}
+
+
+
+  /* RESPONSIVO */
+  
+  @media screen and (max-width: 730px) {
+  
+
+  
+  }
+  
