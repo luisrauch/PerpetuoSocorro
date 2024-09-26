@@ -8,9 +8,6 @@
   
   .informacoes .horarios,
   .agenda {
-    background: linear-gradient(149deg, rgba(15,43,202,1) 0%, rgba(6,72,100,1) 99%);
-    color: #FFF;
-    box-shadow: 3px 8px 10px rgba(0, 0, 255, 0.484);
     border-radius: 50px;
     justify-items: auto;
     line-height: 1.3;
@@ -44,9 +41,6 @@
   /* O QUE ESTÁ ACONTECENDO */
   
   .acontecendo {
-    background: linear-gradient(149deg, rgba(15,43,202,1) 0%, rgba(6,72,100,1) 99%);
-    box-shadow: 3px 8px 10px rgba(0, 0, 255, 0.484);
-    color: #FFF;
     width: 75%;
     margin: 0 auto;
     border-radius: 50px;

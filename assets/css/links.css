@@ -1,21 +1,51 @@
-.logo-links{
-  max-width: 150px;
-  padding: 50px;
-  background: linear-gradient(149deg, rgba(15,43,202,1) 0%, rgba(6,72,100,1) 99%);
-  box-shadow: 3px 8px 10px rgba(0, 0, 255, 0.484);
-  color: #ffffff;
+.Apresentacao{
+  text-indent: 40px;
+}
+
+.Apresentacao h1{
+  text-align: center;
+  padding: 40px;
 }
 
 
-.logos-links{
+.Apresentacao h2{
+  padding: 40px 0 20px 0;
+}
+
+.Apresentacao p{
+  text-align: justify;
+  line-height: 1.3;
+}
+
+
+.logo-lista{
+  text-align: center;
+  height: 200px;
+  width: 180px;
+  border-radius: 30px;
+}
+
+.links{
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 30px;
+  padding: 40px;
 }
 
-.logos-links li{
+.links li{
   list-style: none;
 }
+
+.logo-link{
+  max-width: 150px;
+  max-height: 100px;
+  padding: 10px;
+}
+
+
+
 
 
 

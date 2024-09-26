@@ -6,8 +6,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* CONFIGURAÇÕES GERAIS */
+.layout {
+    background: #FFF;
+    /* background: red; */
+    color: #311700ff;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.cor-fundo {
+    background: linear-gradient(149deg, rgba(15, 43, 202, 1) 0%, rgba(6, 72, 100, 1) 99%);
+    color: #FFF;
+    box-shadow: 3px 8px 10px rgba(0, 0, 255, 0.484);
+}
+
+
+
+
+/* CABEÇALHO */
 header {
-    /* background: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%); */
     background: rgb(0, 0, 75);
     box-shadow: 0px 3px 10px #464646;
 }
@@ -41,7 +60,7 @@ header {
     padding: 10px 20px;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: red;
 }
 
@@ -62,7 +81,6 @@ header {
     align-items: center;
     background: rgb(0, 0, 75);
     color: yellow;
-    margin-top: 30px;
 }
 
 .rodape #rodape_pascom {
@@ -113,27 +131,27 @@ header {
         display: block;
     }
 
-    
-.rodape {
-    display: block;
-    height: auto;
-    text-align: center;
-    background: rgb(0, 0, 75);
-    color: yellow;
-    margin-top: 30px;
-    padding: 20px 0 10px 0;;
-}
 
-.rodape .contatos {
-    display: flex;
-    gap: 5px;
-    justify-content: center;
-    padding: 20px 0 10px 0;
-}
+    .rodape {
+        display: block;
+        height: auto;
+        text-align: center;
+        background: rgb(0, 0, 75);
+        color: yellow;
+        padding: 20px 0 10px 0;
+        ;
+    }
 
-.endereco p {
-    line-height: normal;
-    text-align: center;
-}
+    .rodape .contatos {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        padding: 20px 0 10px 0;
+    }
+
+    .endereco p {
+        line-height: normal;
+        text-align: center;
+    }
 
 }
