@@ -17,7 +17,7 @@
 }
 
 .cor-fundo {
-    background: linear-gradient(149deg, rgba(15, 43, 202, 1) 0%, rgba(6, 72, 100, 1) 99%);
+    background: linear-gradient(149deg, rgb(8, 27, 137) 0%, rgb(3, 60, 84) 99%);
     color: #FFF;
     box-shadow: 3px 8px 10px rgba(0, 0, 255, 0.484);
 }
