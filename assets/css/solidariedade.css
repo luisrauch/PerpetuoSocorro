@@ -5,27 +5,11 @@ body {
     font-size: 14px;
 }
 
-main {
-    padding: 40px 4%;
-}
-
 .interface {
     max-width: 1280px;
     margin: 50PX auto;
 }
 
-
-.interface h2 {
-    text-align: center;
-    padding: 0 0 50PX 0;
-}
-
-.interface p {
-    text-align: justify;
-    color: #311700ff;
-    text-indent: 3em;
-    line-height: 30px;
-}
 
 .interface ul {
     text-align: justify;
@@ -55,7 +39,6 @@ main {
     padding: 50px 0;
 }
 
-h2,
 h3 {
     padding: 20px 0;
     color: #311700ff;
@@ -67,21 +50,17 @@ h3 {
     display: block;
 }
 
-p {
-    text-align: justify;
-}
-
 .oracao {
     border: solid 2px;
     padding: 30px 0;
     margin: 0 200px;
-    background-image: linear-gradient(180deg, #fffa6c 0, #fbe546 25%, #edcf0c 50%, #dfb900 75%, #d3a400 100%);
 }
 
 .oracao p,
 h2 {
     text-align: center;
     line-height: 20px;
+    color: #FFF
 }
 
 .santos {
