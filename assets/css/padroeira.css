@@ -1,3 +1,10 @@
+.imagemNS img{
+    height: 400px ;
+    padding: 0 20px;
+    margin: 0 20px;
+    float: left;
+}
+
 .imgNSPS{
     height: 200px;
 }
