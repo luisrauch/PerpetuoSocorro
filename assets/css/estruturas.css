@@ -62,7 +62,11 @@
   .pastorais1 p {
     padding: 20px;
     text-align: justify;
-  
+  }
+
+  .pastorais1:hover{
+    background: blue;
+    cursor: pointer;
   }
   
   .pastorais1 .solid {
@@ -80,6 +84,12 @@
   .pastorais1 .logo-catequese{
     height: 180px;
   }
+
+  .pastorais1 .Dizimo{
+    height: 180px;
+    border-radius: 20px;
+  }
+
 
   .Nossos_movimentos h1,
   h2 {
@@ -101,12 +111,9 @@
   }
   
   .movimentos1 {
-/*     background: linear-gradient(149deg, rgba(15,43,202,1) 0%, rgba(6,72,100,1) 99%);
-    box-shadow: 3px 8px 10px rgba(0, 0, 255, 0.484); */
     border-radius: 20px;
-    /* color: #FFF; */
     width: 300px;
-    height: 200px;
+    height: auto;
     text-align: center;
   }
   
@@ -121,12 +128,3 @@
     text-align: justify;
   
   }
-  
-  .movimentos1 .solid {
-    height: 180px;
-  }
-  
-  .movimentos1 .Pascom {
-    height: 180 px;
-  }
-  
