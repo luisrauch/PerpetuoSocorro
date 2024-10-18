@@ -77,11 +77,10 @@
     height: 180 px;
   }
   
-  .pastorais1 .LogoSentinelas{
+  .pastorais1 .LogoSentinelas, .logo-catequese{
     height: 180px;
   }
-  
-  .pastorais1 .logo-catequese{
+  .pastorais1 .logo-acolhida, .logoTercoHomens{
     height: 180px;
   }
 
